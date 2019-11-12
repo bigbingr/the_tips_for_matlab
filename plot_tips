@@ -1,0 +1,7 @@
+ %%%add names for multiple lines
+ h1=plot(xxx_daily,-bot_daily,'color','g','LineWidth',1.5);
+ h2=plot(xxx_daily,-top_daily,'b','LineWidth',1.5);
+ h3=plot(xxx_daily,-mid_daily,'k','LineWidth',1.5);
+ legend([h2,h3,h1],'the air/snow interface','the snow/ice interface','the ice/water interface')
+ 
+ 
